@@ -1,6 +1,6 @@
 class Application
 
-    @@items = [Item.new("Apples", 1.25), Item.new("Oranges", 1.75)]
+    @@items = []
 
     def call(env)
         resp = Rack::Response.new
